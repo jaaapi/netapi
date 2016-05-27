@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
--out:"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/bin/Debug/netcoreapp1.0/pbtcWebApi.dll"
+"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs"
+-out:"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/bin/Debug/netcoreapp1.0/netapi.dll"
 -r:"/Users/jasperlaagland/.nuget/packages/Microsoft.AspNetCore.Antiforgery/1.0.0-rc2-final/lib/netstandard1.3/Microsoft.AspNetCore.Antiforgery.dll"
 -r:"/Users/jasperlaagland/.nuget/packages/Microsoft.AspNetCore.Authorization/1.0.0-rc2-final/lib/netstandard1.3/Microsoft.AspNetCore.Authorization.dll"
 -r:"/Users/jasperlaagland/.nuget/packages/Microsoft.AspNetCore.Cors/1.0.0-rc2-final/lib/netstandard1.3/Microsoft.AspNetCore.Cors.dll"
@@ -162,7 +162,7 @@
 -r:"/Users/jasperlaagland/.nuget/packages/System.Threading.Timer/4.0.1-rc2-24027/ref/netstandard1.2/System.Threading.Timer.dll"
 -r:"/Users/jasperlaagland/.nuget/packages/System.Xml.ReaderWriter/4.0.11-rc2-24027/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/jasperlaagland/.nuget/packages/System.Xml.XDocument/4.0.11-rc2-24027/ref/netstandard1.3/System.Xml.XDocument.dll"
--resource:"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/obj/Debug/netcoreapp1.0/pbtcWebApidotnet-compile.deps.json",pbtcWebApi.deps.json
-"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/Program.cs"
-"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/Startup.cs"
-"/Users/jasperlaagland/Documents/06.Development/14.Net/pbtcWebApi/Controllers/ValuesController.cs"
+-resource:"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/obj/Debug/netcoreapp1.0/netapidotnet-compile.deps.json",netapi.deps.json
+"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/Program.cs"
+"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/Startup.cs"
+"/Users/jasperlaagland/Documents/06.Development/14.Net/02.azure/netapi/Controllers/ValuesController.cs"
