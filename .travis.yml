@@ -7,4 +7,6 @@ services:
 
 script:
 #build the image
-- docker build --no-cache -t 
+- docker login -u $DOCKERU -p $DOCKERP
+- docker build --no-cache -t $DOCKER_REPO .
+- docker push $DOCKER_REPO
