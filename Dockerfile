@@ -1,4 +1,4 @@
-FROM microsoft/aspnet:latest
+FROM microsoft/dotnet
 
 RUN printf "deb http://ftp.us.debian.org/debian jessie main\n" >> /etc/apt/sources.list
 
