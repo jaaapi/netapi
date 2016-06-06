@@ -7,4 +7,4 @@ WORKDIR /app
 RUN ["dotnet", "restore"]
 
 EXPOSE 5000/tcp
-ENTRYPOINT ["dotnet", "run", "kestrel"]
+ENTRYPOINT ["dotnet", "run"]

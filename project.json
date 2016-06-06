@@ -7,6 +7,7 @@
     "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.Server.Kestrel.Https": "1.0.0-rc2-final",
     "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc2-final",
     "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc2-final",
     "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final",
@@ -60,6 +61,6 @@
   
    "commands": {
     "web": "Microsoft.AspNet.Hosting server.name=Microsoft.AspNet.Server.WebListener server.urls=http://0.0.0.0:5000",
-    "kestrel" : "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://0.0.0.0:5000"
+    "kestrel" : "Microsoft.AspNetCore.Server.Kestrel --server --server.urls http://0.0.0.0:5050"
   }
 }

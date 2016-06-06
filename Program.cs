@@ -12,11 +12,13 @@ namespace pbtcWebApi
     {
         public static void Main(string[] args)
         {
+            
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseUrls("http://0.0.0.0:5050")
                 .Build();
 
             host.Run();
